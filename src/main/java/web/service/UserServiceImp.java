@@ -38,10 +38,6 @@ public class UserServiceImp implements UserService {
     @Override
     public void update(User updateUser) {
         userDao.update(updateUser);
-//        User userToBeUpdated = show((Long) id);
-//        userToBeUpdated.setFirstName(updateUser.getFirstName());
-//        userToBeUpdated.setLastName(updateUser.getLastName());
-//        userToBeUpdated.setEmail(updateUser.getEmail());
     }
 
     public void deleteUser(Long id) {
